@@ -1,0 +1,271 @@
+div {margin: 0;}
+h1 {margin: 0}
+h2 {margin: 0}
+
+
+h1 { font-size: 36px;
+    line-height: 43px;
+    color: rgb(33,33,33);
+    font-family: "Raleway";
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 31px;
+    margin-top: 107px;
+    
+}
+h1:after {
+    content: "";
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: #ff8c2c;
+    margin: 0 auto;
+    margin-top: 33px;
+}
+
+
+.greeting p { font-size: 14px;
+    line-height: 20px;
+    color: rgb(134,135,139);
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.chocolate img {width: 70px;
+height: 70px;
+}
+
+.chocolate {
+    display: flex;
+    object-position: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 70px;
+    padding-bottom: 100px;
+}
+
+
+.chocolate p  {
+    font-family: "Open Sans";
+    font-weight: normal;
+    text-align: center;
+    color: rgb(134,135,139);
+    font-size: 14px;  
+    }    
+
+h3 {text-align: center;
+margin: 30px 0 30px;}
+
+figure {text-align: center;
+}
+div.ways_of_price {display: flex;
+justify-content: space-evenly;
+margin-left: 120px;
+margin-right: 120px;
+}
+
+h4 { font-size: 36px;
+    margin-top: 0;
+    color: rgb(33,33,33);
+    font-family: "Raleway";
+    text-align: center;
+    margin-bottom: 31px;
+    font-weight: lighter;
+    
+    
+}
+h4:after {
+    content: "";
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: #ff8c2c;
+    margin: 0 auto;
+    margin-top: 33px;
+}
+
+
+.pricing p { font-size: 14px;
+        color: rgb(134,135,139);
+        font-family: "Open Sans";
+        text-align: center;
+        margin-bottom: 120px;
+    }
+
+.ways_of_price p:nth-child(1) {
+    height: 60px;
+    width: 340px;
+    background-color: #303030;
+    color: white;
+    font-size: 20px;
+    font-family: "Open Sans";
+    text-align: center;
+    font-weight: bold;
+    padding-top: 22px ;
+    margin-bottom: 1px;
+   
+
+}
+.ways_of_price p:nth-child(2) {
+    height: 100px;
+    width: 340px;
+    background-color: #303030;
+    padding-top: 30px ;
+    font-size: 70px;
+    color: rgb(255,255,255);
+    font-family: "Raleway";
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+sub { font-size: 35px;
+    line-height: 24px;
+    color: rgb(255,255,255);
+    font-family: "Raleway";
+    font-weight: bold;
+    text-align: center;}
+
+.ways_of_price p:nth-child(3) {
+    height: 50px;
+    width: 340px;
+    background-color: #303030;
+    color: #c2bfbf;
+    font-size: 14px;
+    font-family: "Open Sans";
+    text-align: center;
+    font-style: oblique;
+    padding-top: 22px ;
+    margin-bottom: 0;
+    margin-top: 1px;
+}
+
+.ways_of_price p:nth-child(4) {
+    height: 5px;
+    width: 340px;
+    background-color: #ff8c2c;
+    margin-bottom: 1px;
+    margin-top: 0;
+}
+
+.variant_two p:nth-child(4) {
+    height: 40px;
+    width: 340px;
+    background-color: #ff8c2c;
+    margin-bottom: 1px;
+    margin-top: 0;
+    font-size: 14px;
+    color: rgb(255,255,255);
+    font-family: "Oren Sans";
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px ;
+
+}
+
+.variant_two {
+    margin-top:-50px;
+}
+
+.consist p {
+    height: 40px;
+    width: 340px;
+    background-color: white;
+    color: #8e8f92;
+    font-size: 14px;
+    font-family: "Open Sans";
+    text-align: center;
+    font-weight: normal;
+    padding-top: 15px ;
+    margin-bottom: 1px;
+    margin-top: 0;
+}
+
+.consist {display: flex;
+    justify-content: space-evenly;
+margin-left: 120px;
+margin-right: 120px;
+
+}
+
+.price {
+padding-top: 100px;
+padding-bottom: 100px;
+background-color: #f5f5f5;
+}
+    
+.bottom {
+    background-image: url(../code/img/new_york.png);
+    width: 100%;
+    height: 320px ;
+    z-index: 1;
+    text-align: center;
+}
+
+h2 { z-index: 2;
+    font-size: 36px;
+color: rgb(255,255,255);
+font-family: "Myriad Pro"; 
+font-weight: lighter;
+margin-bottom: 35px;
+position: relative;
+top: 75px;
+}
+
+h2:after {
+    content: "";
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 33px;
+}
+
+.bottom p {
+    font-size: 16px;
+color: #90918d;
+font-family: "Myriad Pro";
+font-weight: lighter;
+margin-top: 93px;
+}
+
+a {
+    font-family: "OpenSans Semibold";
+    color: white;
+    font-size: 15px;
+    text-decoration-line: none;
+    border: 2px solid white;
+    padding: 8px 30px;
+    position: relative;
+    top: 35px;
+
+}
+
+
+.social {
+    position: relative;
+    height: 92px;
+    background-color: black;
+    z-index: 1;
+}
+
+.social img {
+    height: 20px;
+    width: 315px;
+    position: absolute;
+    margin-top: 34px;
+    margin-left: 540px;
+    
+}
+address {color: #4e4e4e;
+    font-family: OpenSans;
+    font-size: 12px;
+    z-index: 2;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 637px;
+
+
+}
