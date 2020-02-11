@@ -1,0 +1,265 @@
+div {margin: 0;}
+h2 {margin: 0}
+
+
+
+
+h2 { font-size: 36px;
+    color: rgb(33,33,33);
+    font-family: "Raleway";
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 103px;
+    
+}
+h2:after {
+    content: "";
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: #ff8c2c;
+    margin: 0 auto;
+    margin-top: 22px;
+}
+.bg h2{
+    color: white;
+    
+}
+.bg h2:after {
+    background-color: white;
+   
+}
+
+.miniature p { font-size: 14px;
+    color: rgb(134,135,139);
+    font-family: "Open Sans";
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+
+
+.chocolate img {width: 70px;
+height: 70px;
+padding-bottom: 30px;
+}
+
+.chocolate {
+    display: flex;   
+    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.chocolate p  {
+    font-family: "Open Sans";
+    font-weight: normal;
+    text-align: center;
+    color: rgb(134,135,139);
+    font-size: 14px;  
+    margin: 0;
+    }    
+
+.chocolate h3 {text-align: center;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+figure {text-align: center;
+    margin: 0;
+}
+
+.price {
+background-color: #f5f5f5;
+}
+
+
+
+.tables_block {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    padding-top: 80px;
+}
+
+
+.tables_block .up {
+    position: absolute;
+    top: 40px;
+    left: 35%;
+} 
+
+
+.tables_block .table {
+    width: 31%;
+    text-align: center;
+}
+
+.table .row {
+    background-color: #fff;
+    border-bottom: 1px solid #f5f5f5;
+    color: #86878b;
+    font-size: 14px;
+   
+    padding: 15px 0;
+}
+
+.table .header_row {
+    background-color: #303030;
+    color: white;
+}
+
+.table .basic {
+    font-size: 20px;
+    font-family: "Open Sans";
+    font-weight: bold;
+
+}
+.table .price {
+    font-size: 60px;
+    font-family: "Raleway";
+    font-weight: bold;
+ }
+
+.table .time_payment {
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-style: oblique;
+
+}
+
+.table .optional_row {
+    padding: 0;
+    min-height: 5px;
+    background-color: #ff8c2d;
+}
+
+.table .optional_row p {
+    padding: 15px 0;
+    margin: 0;
+}
+
+
+    
+.bottom {
+    background-image: url(../img/new_york.png);
+    background-size: cover;
+    z-index: 1;
+    text-align: center;  
+}
+
+.bottom a {
+    font-family: "OpenSans Semibold";
+    color: white;
+    font-size: 15px;
+    text-decoration-line: none;
+    border: 2px solid white;
+    margin-bottom: 50px;
+    
+}
+
+.footer {
+    background-color: #000;
+    text-align: center;
+    padding: 25px 0 15px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+    padding-bottom: 10px;
+}
+
+.soc_link {
+    background-image: url(../img/spritesheetsocial.png);
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-right: 25px;
+    
+}
+.soc_link:hover {
+    background-image: url(../img/spritesheetorange.png);
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-right: 25px;
+}
+.fb {
+    background-position: 0 0;
+}
+
+.tw {
+    background-position: -24px 0;
+}
+
+.gg {
+    background-position: -48px 0;
+}
+.pi {
+    background-position: -72px 0;
+}
+.inst {
+    background-position: -94px 0;
+}
+.vk {
+    background-position: -120px 0;
+}
+.rss {
+    background-position: -144px 0;
+}
+    
+
+.footer .copyright p {color: #4e4e4e;
+    font-family: OpenSans;
+    font-size: 12px;
+
+}
+
+
+form .form {
+    margin-bottom: 45px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.contact input {
+    border-width: 0px 0px 2px 0px;
+    border-color: #e2e2e2;
+    padding-top: 40px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: rgb(134,135,139);
+    padding-bottom: 10px;
+    
+    
+}
+
+.contact textarea {
+    border-width: 0px 0px 2px 0px;
+    border-color: #e2e2e2;
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: rgb(134,135,139);
+    padding-top: 40px;    
+}
+
+.contact button {
+    padding: 15px 20px;
+    background-color: #ff9b51;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-left: 45%;
+    margin-bottom: 80px;
+    
+}
