@@ -1,0 +1,48 @@
+table {
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+td.active {
+    background-color: red;
+}
+
+.add {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid black;
+    color: black;
+
+}
+
+.add:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.del {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid black;
+    color: black;
+ 
+}
+.del:hover {
+    background-color: black;
+    color: white;
+}
+
+.correct { text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid black;
+    color: black;}
+
+.correct:hover {
+    background-color: black;
+    color: white;
+    }
