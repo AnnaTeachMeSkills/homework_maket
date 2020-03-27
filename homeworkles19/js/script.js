@@ -5,8 +5,9 @@ Array.prototype.sum = function () {
     let sum = 0;
 
     for(let i = 0; i < this.length; i++){
-        if (Number(this[i])) {
+        if (typeof this[i] == 'number') {
             sum += this[i];
+           
         }
     }
     return sum;
@@ -14,6 +15,8 @@ Array.prototype.sum = function () {
 
 
 console.log(mass.sum());
+
+
 
 
 
