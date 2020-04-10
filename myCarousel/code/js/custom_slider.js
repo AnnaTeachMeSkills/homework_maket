@@ -33,7 +33,7 @@ custom_slider.custom_slider = function( sliderSettings) {
     
     function prevSlideClick() {
         
-        moveNum = moveNum + slidesOffset;
+        moveNum = moveNum + Number(slidesOffset);
         let custom_slider = this.closest('.custom_slider');
         let innerContainer = custom_slider.querySelector('.inner_container');
         innerContainer.style.transform = `translate(${moveNum}px, 0)`;
