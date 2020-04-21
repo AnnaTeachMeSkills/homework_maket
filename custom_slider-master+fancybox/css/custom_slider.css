@@ -1,0 +1,40 @@
+.custom_slider .outer_container {
+  overflow: hidden;
+  margin: 0 auto;
+}
+.custom_slider .outer_container .inner_container {
+  width: 8000px;
+  display: flex;
+}
+.custom_slider .one_slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.custom_slider .one_slide img {
+  width: 100%;
+}
+.custom_slider .navs {
+  display: flex;
+  justify-content: center;
+}
+.custom_slider .navs > a {
+  text-decoration: none;
+}
+.custom_slider .navs .prev_slide {
+  margin-right: 20px;
+}
+.custom_slider .generaldots {
+  display: flex;
+  justify-content: center;
+}
+.custom_slider .dot {
+  width: 10px;
+  height: 10px;
+  background-color: #949393;
+  border-radius: 10px;
+  margin: 10px;
+}
+.custom_slider .dot:hover {
+  background-color: #5c5a5a;
+}

@@ -1,0 +1,90 @@
+.container {
+  margin: 0 100px;
+  display: block;
+}
+.container .common_div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container .photo {
+  max-width: 300px;
+  max-height: 300px;
+  margin: 0 20px 20px;
+}
+.container .photo:hover {
+  opacity: 0.7;
+}
+.container .eachPhoto {
+  width: 100%;
+  height: 100%;
+}
+.modal {
+  display: none;
+  background-color: rgba(8, 8, 8, 0.9);
+  z-index: 1;
+  overflow: auto;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+}
+.modal .modal_header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.modal .next {
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px;
+  background-color: grey;
+}
+.modal .next:hover {
+  background-color: #aaa7a7;
+}
+.modal .next_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal .prev {
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px;
+  background-color: grey;
+  margin-left: 20px;
+}
+.modal .prev:hover {
+  background-color: #aaa7a7;
+}
+.modal .prev_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal .close {
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px;
+  background-color: grey;
+}
+.modal .close:hover {
+  background-color: #aaa7a7;
+}
+.modal .close_div {
+  display: flex;
+  justify-content: end;
+}
+.modal .picture {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}

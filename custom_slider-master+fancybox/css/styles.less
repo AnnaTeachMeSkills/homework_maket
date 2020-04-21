@@ -1,0 +1,118 @@
+.container {
+    margin: 0 100px;
+    display: block;
+    .common_div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    .photo {
+        max-width: 300px;
+        max-height: 300px;
+        margin: 0 20px 20px;
+    }
+
+    .photo:hover {
+        opacity: 0.7;
+    }
+
+    
+    .eachPhoto {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+.modal {
+    display: none;
+   background-color: rgba(8, 8, 8, 0.9);
+    z-index: 1; 
+    overflow: auto;
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+    justify-content: center;
+    align-items: center;
+
+    
+
+    .modal_header {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .next{
+        width: 20px;
+        height: 20px;
+        padding: 10px 10px;
+        background-color: grey;
+       
+        
+    }
+    .next:hover {
+        background-color: rgb(170, 167, 167);
+    }
+    .next_div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .prev {
+        width: 20px;
+        height: 20px;
+        padding: 10px 10px;
+        background-color: grey;
+        margin-left: 20px;
+    }
+    .prev:hover {
+        background-color: rgb(170, 167, 167);
+    }
+
+    .prev_div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .close {
+        width: 20px;
+        height: 20px;
+        padding: 10px 10px;
+        background-color: grey;
+    }
+
+    .close:hover {
+        background-color: rgb(170, 167, 167);
+    }
+
+    .close_div{
+        display: flex;
+        justify-content: end;
+    }
+
+
+    .picture {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    
+   
+}
+
+
